@@ -1,6 +1,7 @@
 # Deep multi-survey classification of variable stars
 ![Cepheid Star][cepheid_compare]
-[cepheid_compare]: ./Images/CEP_compare.png
+
+[cepheid_compare]: https://github.com/C-Aguirre017/ClassificationVariableStars/blob/master/Images/CEP_compare.png
 
 This is the official repository of the paper "Deep multi-survey classification of variable stars"
 
