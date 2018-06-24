@@ -29,6 +29,7 @@ limit = 8000 # Maximum amount of Star Per Class Per Survey
 extraRandom = True
 permutation = True # Permute Files
 BALANCE_DB = True # Balance or not
+maximum = 5
 
 # Mini Settings
 MAX_NUMBER_OF_POINTS = 500
@@ -174,7 +175,7 @@ def replicate(files):
         if length < limit and extraRandom:
                 count = 1
                 q = limit // length
-                for i in range(1, q):
+                for i in range(1, min(q, maximum)):
                     for file, num in array:
                         new_files += [[file, count]]
                     count += 1
